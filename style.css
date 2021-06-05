@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'vt323', Courier, monospace;
+}
+li{
+    list-style: none;
+}
+.fundo{
+    background: #fff;
+    border-radius: 50%;
+}
+.pokedex{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    text-align: center;
+}
+.pokedex li{
+    background-color: #ccc;
+    padding: 30px;
+    margin: 10px;
+    border-radius:10px ;
+}
+.pokedex img{
+    width: 150px;
+    height: 150px;
+}
+
+.pokedex .bug{
+    background-color: lightgreen;
+}
+.pokedex .ice{
+    background-color: lightgreen;
+}
+.pokedex .fire{
+    background-color: #F7786A ;
+}
+.pokedex .grass{
+    background-color: lightgreen;
+}
+.pokedex .poison{
+    background-color: lightgreen ;
+}
+.pokedex .normal{
+    background-color: lightgray;
+}
+.pokedex .electric{
+    background-color: gold;
+}
+.pokedex .rock{
+    background-color: #ccc;
+}
+.pokedex .dragon{
+    background-color: #F7786A;
+}
+.pokedex .flying{
+    background-color: #eff298;
+}
+.pokedex .ghost {
+    background-color: rgba(0,0,0,0.5);
+}
+.pokedex .water{
+    background-color: #58ABF6;
+}
