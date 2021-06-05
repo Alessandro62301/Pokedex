@@ -5,6 +5,7 @@
 }
 li{
     list-style: none;
+    cursor: pointer;
 }
 .fundo{
     background: #fff;
@@ -61,4 +62,21 @@ li{
 }
 .pokedex .water{
     background-color: #58ABF6;
+}
+
+#buscar{
+    margin-top: 50px;
+    margin: 10px;
+    width: 350px;
+    height: 50px;
+    margin-left:540px ;
+}
+.buscar-bt{
+    width: 350px;
+    height: 50px;   
+    margin-left:540px ;
+}
+.voltar{
+    padding: 10px;
+    background-color: lightblue;
 }

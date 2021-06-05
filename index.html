@@ -8,8 +8,11 @@
     <title>Pokedex</title>
 </head>
 <body>
-    
-
+        <button onclick="requestPokeInfo()" class="voltar">Voltar</button>
+    <div>
+        <input type="text" placeholder="Pikachu" id="buscar">
+        <input type="submit" placeholder="buscar" class="buscar-bt" onclick="requestPokeInput()">
+    </div>
     <ul data-js="pokedex" class="pokedex"></ul>
 
 
